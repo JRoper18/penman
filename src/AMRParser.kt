@@ -1,7 +1,7 @@
 import java.util.*
 import kotlin.test.currentStackTrace
 
-object Parser {
+object AMRParser {
     fun parse(str : String) : AMRGraph {
         val concepts = mutableMapOf<String, AMRConcept>()
         val unprocessedRelations = mutableMapOf<Pair<String, String>, String>()

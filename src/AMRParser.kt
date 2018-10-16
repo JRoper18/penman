@@ -1,5 +1,4 @@
 import java.util.*
-import kotlin.test.currentStackTrace
 
 object AMRParser {
     fun parse(str : String) : AMRGraph {

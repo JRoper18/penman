@@ -1,4 +1,5 @@
 enum class AMRRoleType {
+	//LIST OF ALL ROLES: https://amr.isi.edu/doc/roles.html
     //General semantic roles
     ACCOMPANIER,
     AGE,
@@ -101,5 +102,11 @@ enum class AMRRoleType {
 	PREPUNDER,
 	PREPWITH,
 	PREPWITHOUT,
-    CONJASIF
+    CONJASIF,
+
+	//These are some roles I've encountered in the official "amr-guidelines" page but not in the other official documentation.
+	//Here: https://github.com/amrisi/amr-guidelines/blob/master/amr.md#subsets
+	SUBSETOF,
+	SUPERSETOF
+
 }

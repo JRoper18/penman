@@ -5,4 +5,8 @@ Usage: AMRParser has literally one method, it's called "parse", and it returns a
 
 Time took to write: A few hours. 
 
+TODO: Tests, reification, encoding, and concept inventory data on AMR types. 
 
+Q: When will changes be made? A: When someone else does them or when I need them. 
+
+Q: This isn't enough code to warrant it's own repo. A: Yup. 
